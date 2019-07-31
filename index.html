@@ -9,18 +9,21 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="keywords" content="desenvolvedor, developer, freelancer, front-end, web, frontend, html, css, javascript, mysql, sites, websites, belém, ananindeua, pará">
     <link rel="icon" href="img/ds.jpg">
+    <!-- Folha de estilo do site -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body onload="carregar()">
     <header>
         <a href="index.html">Dener Silva</a>
     </header>
     <hr>
-    <section>
-        <h1>Aqui um h1</h1>
-        <p>aqui um paragrafo</p>
+    <section class="section-01">
+        <h1 id="saudacao"></h1>
+        <h3>Sobre mim</h3>
+        <p>Aperfeiçoando meus conhecimentos na área de desenvolvimento de Sistemas Web com Javascript, CSS3 e HTML5. Adoto por hobby a prática de esportes. Minha maior conquista, sem dúvida, a minha família.</p>
     </section>
     <hr>
-    <section>
+    <section class="section-02">
         <div>
             Currículum Vitae
         </div>
@@ -29,8 +32,9 @@
         </div>
     </section>
     <hr>
-    <footer>
+    <footer class="footer">
         Rodapé
     </footer>
+    <script src="js/pessoal.js"></script>
 </body>
 </html>
