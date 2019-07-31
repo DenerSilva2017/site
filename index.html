@@ -9,6 +9,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="keywords" content="desenvolvedor, developer, freelancer, front-end, web, frontend, html, css, javascript, mysql, sites, websites, belém, ananindeua, pará">
     <link rel="icon" href="img/ds.jpg">
+
+    <!-- Crossbrowser -->
+    <link rel="stylesheet" href="/css/reset.css">
+
     <!-- Folha de estilo do site -->
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -18,18 +22,33 @@
     </header>
     <hr>
     <section class="section-01">
-        <h1 id="saudacao"></h1>
-        <h3>Sobre mim</h3>
-        <p>Aperfeiçoando meus conhecimentos na área de desenvolvimento de Sistemas Web com Javascript, CSS3 e HTML5. Adoto por hobby a prática de esportes. Minha maior conquista, sem dúvida, a minha família.</p>
-    </section>
-    <hr>
-    <section class="section-02">
-        <div>
-            Currículum Vitae
+        <div class="div01">
+            <h1 id="saudacao"></h1>
+            <h3>Sobre mim</h3>
+            <p>Aperfeiçoando meus conhecimentos na área de desenvolvimento de Sistemas Web com Javascript, CSS3 e HTML5. <br>
+            Adoto por hobby a prática de esportes. <br>
+            Minha maior conquista, sem dúvida, a minha família.</p>
         </div>
-        <div>
-            Meus Projetos
+        <div class="div02">
+            <div class="curriculum">
+                <a href="curriculum.html"><img src="/img/img_cv.jpg" alt="Curriculum Vitae"></a>
+                <div class="inner">
+                    <h4>Meu curriculum vitae</h4>
+                    <p>aqui um texto resumido para apresentação do curriculum.</p>
+                    <a href="curriculum.html"> Acesse clicando aqui </a> <!--Aqui pode ter um botão-->
+                </div>
+            </div>
         </div>
+        <div class="div03">
+                <div class="projetos">
+                        <a href="projetos.html"><img src="/img/img_projeto.jpg" alt="Meus Projetos"></a>
+                        <div class="inner">
+                            <h4>Meus Projetos</h4>
+                            <p>aqui um texto resumido para apresentação dos seus projetos.</p>
+                            <a href="projetos.html"> Acesse clicando aqui </a> <!--Aqui pode ter um botão-->
+                        </div>
+                    </div>
+                </div>
     </section>
     <hr>
     <footer class="footer">

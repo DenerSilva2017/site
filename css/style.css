@@ -1,8 +1,9 @@
-
-
+/*SEÇÃO 01*/
 .section-01{
     background: url(../img/img-01.jpg);
+    background-attachment: fixed;
     background-size: cover;
+    overflow: hidden;
 }
 
 h1, h3, p{
@@ -10,3 +11,48 @@ h1, h3, p{
     text-align: center;
 }
 
+
+/*DIV CURRICULUM*/
+.div02{
+    width: 100%;
+    float: left;
+    padding: 3% 4%;
+    box-sizing: border-box;
+}
+
+.curriculum{
+    width: 100%;
+    text-align: center;
+    background-color: tomato;
+    border-radius: 7px;
+    margin-bottom: 3%;
+}
+
+.curriculum img{
+    border-radius: 7px 7px 0 0;
+
+}
+
+/*DIV PROJETOS*/
+.div03{
+    width: 100%;
+    float: left;
+    padding: 3% 4%;
+    box-sizing: border-box;
+}
+
+.projetos{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(66, 66, 219);
+    border-radius: 7px;
+    margin-bottom: 3%;
+}
+
+.projetos img{
+    border-radius: 7px 7px 0 0;
+}
+
+.inner{
+    padding: 7%;
+}
