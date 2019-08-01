@@ -1,3 +1,8 @@
+/*CORPO*/
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 /*SEÇÃO 01*/
 .section-01{
     background: url(../img/img-01.jpg);
@@ -6,11 +11,24 @@
     overflow: hidden;
 }
 
-h1, h3, p{
+h1, h3, h4, p{
     color: #fff;
     text-align: center;
 }
 
+.div01 h1{
+    font-size: 2.0em;
+    margin: 7% 7%;
+}
+
+.div01 h3{
+    font-size: 1.5em;
+}
+
+.div01 p{
+    font-size: 1.3em;
+    margin-top: 2%;
+}
 
 /*DIV CURRICULUM*/
 .div02{
@@ -23,14 +41,14 @@ h1, h3, p{
 .curriculum{
     width: 100%;
     text-align: center;
-    background-color: tomato;
+    background-color: rgba(10,23,55,0.5);
     border-radius: 7px;
     margin-bottom: 3%;
 }
 
 .curriculum img{
     border-radius: 7px 7px 0 0;
-
+    width: 100%;
 }
 
 /*DIV PROJETOS*/
@@ -44,15 +62,27 @@ h1, h3, p{
 .projetos{
     width: 100%;
     text-align: center;
-    background-color: rgb(66, 66, 219);
+    background-color: rgba(10,23,55,0.5);
     border-radius: 7px;
     margin-bottom: 3%;
 }
 
 .projetos img{
     border-radius: 7px 7px 0 0;
+    width: 100%;    
 }
 
+
+/*COMUM CURRICULUM E PROJETOS*/
 .inner{
-    padding: 7%;
+    padding: 2%;
+}
+
+.inner h4{
+    font-size: 1.7em;
+}
+
+.inner p{
+    margin-top: 5%;
+    font-size: 1.5em;
 }
