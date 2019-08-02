@@ -11,33 +11,34 @@
     <link rel="icon" href="img/ds.jpg">
 
     <!-- Crossbrowser -->
-    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
 
     <!-- Fonte da google -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
 
     <!-- WOW -->
-    <link rel="stylesheet" href="../site/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
 
     <!-- Font Awesome -->
-    <link rel="stylesheet"  type="text/css" href="../site/css/fonts/css/all.css"> 
+    <link rel="stylesheet"  type="text/css" href="css/fonts/css/all.css"> 
 
     <!-- Folha de estilo do site -->
-    <link rel="stylesheet" href="../site/css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
 </head>
 <body onload="carregar()">
     <section class="section-01">
-        <div class="div01">
-            <h1 id="saudacao"></h1>
-            <h3>Um pouco sobre mim</h3>
-            <p>Estou diariamente aperfeiçoando meus conhecimentos na área de desenvolvimento de Sistemas Web com Javascript, CSS3 e HTML5. <br>
-            Adoto por hobby a prática de esportes. <br>
-            Minha maior conquista, sem dúvida, a minha família.</p>
+        <h1 id="saudacao"></h1>
+        <div class="imgdener">
+            <img src="/img/denersilva.png" alt="Dener Silva">
         </div>
+        <p>Estou diariamente aperfeiçoando meus conhecimentos na área de desenvolvimento de Sistemas Web com Javascript, CSS3 e HTML5. <br>
+        Adoto por hobby a prática de esportes. <br>
+        Minha maior conquista, sem dúvida, a minha família.</p>
+
         <div class="div02">
             <div class="curriculum">
-                <a href="curriculum.html"><img src="../site/img/imgcv.jpg" alt="Curriculum Vitae"></a>
+                <img src="img/imgcv.jpg" alt="Curriculum Vitae">
                 <div class="inner">
                     <h4>Meu curriculum vitae</h4>
                     <p>Sou um profissional da área de TI, atualmente focado em desenvolvimento front-end.</p>
@@ -49,7 +50,7 @@
         </div>
         <div class="div03">
             <div class="projetos">
-                <a href="projetos.html"><img src="../site/img/imgprojeto.jpg" alt="Meus Projetos"></a>
+                <img src="img/imgprojeto.jpg" alt="Meus Projetos">
                 <div class="inner">
                     <h4>Meus Projetos</h4>
                     <p>Tenho desenvolvido projetos utilizando JavaScript, HTML5 e CSS.</p>
@@ -62,9 +63,9 @@
     </section>
     <footer class="rodape">
         <div class="social">
-            <a href="www.facebook.com/denerffsilva" target="_blank"><i class="fab fa-facebook-square"></i></a>
-            <a href="www.linkedin.com/in/dener-silva" target="_blank"><i class="fab fa-linkedin"></i></a>
-            <a href="www.github.com/DenerSilva2017" target="_blank"><i class="fab fa-github-square"></i></a>
+            <a href="https://www.facebook.com/denerffsilva" target="_blank"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.linkedin.com/in/dener-silva/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/DenerSilva2017" target="_blank"><i class="fab fa-github-square"></i></a>
         </div>
         <div class="copyright">
             <p>Copyright &copy; Dener Silva - Todos os direitos reservados.</p>
@@ -75,7 +76,7 @@
     <!-- Script que carrega a saudação inicial do site -->
     <script src="js/pessoal.js"></script>
 
-    <script src="../site/js/wow.min.js"></script>
+    <script src="js/wow.min.js"></script>
         <script>
             new WOW().init();
         </script>
