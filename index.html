@@ -17,13 +17,13 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
 
     <!-- WOW -->
-    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="../site/css/animate.css">
 
     <!-- Font Awesome -->
-    <link rel="stylesheet"  type="text/css" href="../site/css/fonts/css/all.css">   
+    <link rel="stylesheet"  type="text/css" href="../site/css/fonts/css/all.css"> 
 
     <!-- Folha de estilo do site -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../site/css/style.css">
 
 </head>
 <body onload="carregar()">
@@ -41,22 +41,25 @@
                 <div class="inner">
                     <h4>Meu curriculum vitae</h4>
                     <p>Sou um profissional da área de TI, atualmente focado em desenvolvimento front-end.</p>
-                    <a href="curriculum.html"> Acesse clicando aqui </a> <!--Aqui pode ter um botão-->
+                    <div class="botao wow fadeInRight" data-wow-duration="2s">
+                        <a href="curriculum.html"><button class="btn"> Acesse </button></a>
+                    </div>  
                 </div>
             </div>
         </div>
         <div class="div03">
-                <div class="projetos">
-                        <a href="projetos.html"><img src="../site/img/imgprojeto.jpg" alt="Meus Projetos"></a>
-                        <div class="inner">
-                            <h4>Meus Projetos</h4>
-                            <p>Tenho desenvolvido projetos utilizando JavaScript, HTML5 e CSS.</p>
-                            <a href="projetos.html"> Acesse clicando aqui </a> <!--Aqui pode ter um botão-->
-                        </div>
+            <div class="projetos">
+                <a href="projetos.html"><img src="../site/img/imgprojeto.jpg" alt="Meus Projetos"></a>
+                <div class="inner">
+                    <h4>Meus Projetos</h4>
+                    <p>Tenho desenvolvido projetos utilizando JavaScript, HTML5 e CSS.</p>
+                    <div class="botao wow fadeInLeft" data-wow-duration="2s">
+                        <a href="projetos.html"><button class="btn"> Acesse </button></a>
                     </div>
                 </div>
+            </div>
+        </div>
     </section>
-
     <footer class="rodape">
         <div class="social">
             <a href="facebook.com/denerffsilva" target="_blank"><i class="fab fa-facebook-square"></i></a>
@@ -64,12 +67,17 @@
             <a href="github.com/DenerSilva2017" target="_blank"><i class="fab fa-github-square"></i></a>
         </div>
         <div class="copyright">
-            <p>
-                Copyright &copy; Dener Silva - Todos os direitos reservados.
-            </p>
+            <p>Copyright &copy; Dener Silva - Todos os direitos reservados.</p>
         </div>
+
     </footer>
+    
     <!-- Script que carrega a saudação inicial do site -->
     <script src="js/pessoal.js"></script>
+
+    <script src="../site/js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
 </body>
 </html>
