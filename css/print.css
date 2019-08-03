@@ -1,0 +1,45 @@
+/* CSS para impressão */
+/* Diagramar o Site no papel */
+
+@media print {
+    .section-cv{
+        margin-top: 10px;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 0px;
+    }
+
+    .cabecalho{
+        display: grid;
+        grid-gap: 15px;
+        grid-template-columns: 250px 930px;
+    }
+
+    .foto img{
+        width: 230px;
+        background-repeat: no-repeat;
+        margin-top: 15px;
+        margin-left: 30px;
+        display: block;
+    }
+
+    .section-cv h3{
+        font-size: 36px;
+        text-align: left;
+    }
+
+    .section-cv h4{
+        font-size: 29px;
+    }
+
+    .section-cv p{
+        font-size: 26px;
+    }
+
+    .lista{
+        font-size: 26px;
+    }
+
+}
+
+
