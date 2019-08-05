@@ -1,17 +1,21 @@
 /* CSS para impressão */
 /* Diagramar o Site no papel */
-
 @media print {
     .section-cv{
         margin-top: 10px;
         margin-left: 15px;
         margin-right: 15px;
         margin-bottom: 0px;
+        text-align: justify;
+    }
+
+    .lista ul{
+       font-size: 25px;
     }
 
     .cabecalho{
         display: grid;
-        grid-gap: 15px;
+        grid-gap: 50px;
         grid-template-columns: 250px 930px;
     }
 
@@ -36,10 +40,21 @@
         font-size: 26px;
     }
 
-    .lista{
-        font-size: 26px;
+    @media (max-width: 900px){
+        .lista ul{
+            display: grid;
+            grid-template-columns: 280px 280px 280px;
+        }
     }
 
+    .btn-imprimir{
+        display: none;
+    }
+
+    .rodape{
+            display: none;
+    }
 }
+
 
 

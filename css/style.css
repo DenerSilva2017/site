@@ -24,7 +24,8 @@ a:active {
 
 /*SEÇÃO 01*/
 .section-01{
-    background: url(../img/img-01.jpg);
+    background: url(../img/bgp.jpg);
+    background-color: tomato;
     background-attachment: fixed;
     background-size: cover;
     overflow: hidden;
