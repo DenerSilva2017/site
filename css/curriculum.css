@@ -1,13 +1,26 @@
 /*Página do Currículo */
-.section-cv{
+body{
     font: normal 16px 'Roboto', sans-serif;
+}
+
+body a:hover{
+        color: rgb(66, 66, 228);
+        transition: 1s;
+}
+
+body a:link, a:visited {
+    text-decoration: none
+}
+
+
+.section-cv{
     padding: 20px;
-    background-color: rgba(211, 212, 250, 0.726);
-    color: #000;
+    background-color: gainsboro;
+    color: rgb(15, 15, 15);
 }
 
 .section-cv p{
-    font-size: 19px;
+    font-size: 1.2rem;
     margin-left: 5px;
     margin-right: 5px;
     margin-top: 6px;
@@ -32,16 +45,12 @@
 }
 
 .informacoes a{
-    color: #000;
+    color: rgb(15, 15, 15);
 }
 
-.informacoes a:link, a:visited {
-        text-decoration: none
- }
- 
- .informacoes a:hover{
+.informacoes a:hover{
     text-decoration: underline; 
-    color: blue;
+    transition: 1s;
 }
 
 .informacoes a:active {
@@ -52,19 +61,19 @@
     font-size: 1.7rem;
     text-align: center;
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .section-cv h4{
     background: rgb(192, 191, 191);
-    font-size: 20px;
+    font-size: 1.3rem;
     text-align: center;
     margin-top: 25px;
 }
 
 .lista ul{
-    font-size: 19px;
-    color: black;
+    font-size: 1.1rem;
+    color: rgb(15, 15, 15);
     margin-left: 5px;
     margin-right: 5px;
     margin-top: 5px;
@@ -79,8 +88,13 @@
 }
 
 .btn-imprimir{
-    background-color: rgba(92, 81, 187, 0.7);
-    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.btn-imprimir button{
+    background: rgb(192, 191, 191);
+    color: rgb(15, 15, 15);
     font-size: 1.2rem;
     padding: 10px 25px ;
     margin: 3%;
@@ -88,9 +102,51 @@
     border-radius: 7px;
 }
 
-.btn-imprimir:hover{
-    background-color: rgba(238, 141, 14, 0.74);
+.btn-imprimir button:hover{
+    background-color: rgb(15, 15, 15);
+    color: rgb(192, 191, 191);
     border-radius: 7px 0 7px 0;
-    transition: 1.5s;
+    transition: 1.0s;
     cursor: pointer; 
+
+}
+
+/*RODAPÉ*/
+.rodape{
+    color: rgb(15, 15, 15);
+    width: 100%;
+    text-align: center;
+    padding: 15px 0 15px 0;
+    background-color: rgb(192, 191, 191);
+}
+
+.rodape p, a{
+    color: rgb(15, 15, 15);
+}
+
+.social a{
+    color: rgb(15, 15, 15);
+    font-size: 2.5rem;
+    margin-right: 20px;    
+}
+
+.social a:last-child{
+    margin-right: 0;
+}
+
+.navegacao{
+    font-size: 1.3rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contatos P{
+    font-size: 1.3rem;
+    line-height: 2;
+}
+
+.copyright p{
+    font-size: 1.1rem;
+    padding-top: 20px;
+    color: rgb(15, 15, 15);
 }
