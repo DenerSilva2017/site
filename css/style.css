@@ -170,18 +170,19 @@ p{
 
 .navegacao{
     font-size: 1.3rem;
-    margin-top: 10px;
+    margin-top: 15px;
+    line-height: 1.5;
 }
 
 .contatos P{
     font-size: 1.3rem;
     margin-top: 0;
     padding: 0;
-    line-height: 1.5;
+    line-height: 1.7;
 }
 
 .contatos h2{
-    padding-top: 15px;
+    padding-top: 20px;
 }
 
 .copyright p{
