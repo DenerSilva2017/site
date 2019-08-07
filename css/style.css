@@ -30,7 +30,11 @@ a:active {
     overflow: hidden;
 }
 
-h1, h3, h4, p{
+#saudacao{
+    font: normal 2.5rem 'Roboto', sans-serif;
+}
+
+h1, h4, p{
     color: #fff;
     text-align: center;
 }
@@ -46,10 +50,6 @@ h1, h3, h4, p{
 h1{
     font-size: 2.0rem;
     padding: 7% 7% 3% 7%;
-}
-
-h3{
-    font-size: 1.5rem;
 }
 
 p{
@@ -80,7 +80,7 @@ p{
     width: 100%;
 }
 
-/*DIV PROJETOS*/
+/*DIV PORTFÓLIO*/
 .div03{
     width: 100%;
     float: left;
@@ -107,7 +107,7 @@ p{
 }
 
 .inner h4{
-    font-size: 1.7rem;
+    font: normal 2rem 'Roboto', sans-serif;
     text-shadow: 1px 1px 1px rgb(27, 27, 27);
 }
 
@@ -149,8 +149,8 @@ p{
 }
 
 .rodape h2{
+    font: normal 2rem 'Roboto', sans-serif;
     color: rgba(255, 255, 255);
-    font-size: 1.7rem;
 }
 
 .social a{
@@ -172,6 +172,10 @@ p{
     font-size: 1.3rem;
     margin-top: 15px;
     line-height: 1.5;
+}
+
+.navegacao a{
+    padding-top: 50px;
 }
 
 .contatos P{
