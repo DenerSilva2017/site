@@ -1,23 +1,35 @@
-body
-{
+body{
 	margin: 0;
 	padding: 0;
 	min-height: 100vh;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-family: consolas;
+}
+
+h1{
+	padding-top: 20px;
+}
+
+.flex{
+	margin: 0;
+	padding: 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	font-family: consolas;
 }
-.container
-{
+
+.container{
 	position: relative;
 	width: 1200px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
 }
-.container .box
-{
+
+.container .box{
 	position: relative;
 	width: 280px;
 	height: 400px;
@@ -25,8 +37,8 @@ body
 	box-sizing: border-box;
 	overflow: hidden;
 }
-.container .box .imgBx
-{
+
+.container .box .imgBx{
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -37,13 +49,13 @@ body
 	transition: 0.5s;
 	transition-delay: 0.5s;
 }
-.container .box:hover .imgBx
-{
+
+.container .box:hover .imgBx{
 	clip-path: circle(80px at center 100px);
 	transition-delay: 0s;
 }
-.container .box .imgBx img
-{
+
+.container .box .imgBx img{
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -51,8 +63,8 @@ body
 	height: 100%;
 	object-fit: cover;
 }
-.container .box .content
-{
+
+.container .box .content{
 	position: absolute;
 	left: 0;
 	bottom: 0;
@@ -62,41 +74,41 @@ body
 	box-sizing: border-box;
 	text-align: center;
 }
-.container .box .content h2
-{
+
+.container .box .content h2{
 	margin: 0;
 	padding: 0;
 }
-.container .box .content a
-{
+
+.container .box .content a{
 	text-decoration: none;
 	background: #000;
 	color: #fff;
 	padding: 5px;
 	display: inline-block;
 }
+
 .container .box .content h2,
 .container .box .content p,
-.container .box .content a
-{
+.container .box .content a{
 	opacity: 0;
 	transition: 0.5s;
 	transform: translateY(20px);
 }
-.container .box:hover .content h2
-{
+
+.container .box:hover .content h2{
 	opacity: 1;
 	transform: translateY(0);
 	transition-delay: 0.5s
 }
-.container .box:hover .content p
-{
+
+.container .box:hover .content p{
 	opacity: 1;
 	transform: translateY(0);
 	transition-delay: 0.7s
 }
-.container .box:hover .content a
-{
+
+.container .box:hover .content a{
 	opacity: 1;
 	transform: translateY(0);
 	transition-delay: 0.9s
