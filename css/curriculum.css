@@ -83,7 +83,7 @@ body a:link, a:visited {
 @media (max-width: 600px){
     .lista ul{
         display: grid;
-        grid-template-columns: 170px 170px;
+        grid-template-columns: 145px 145px;
     }
 }
 
