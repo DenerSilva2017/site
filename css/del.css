@@ -12,10 +12,6 @@ h1{
 	padding-top: 20px;
 }
 
-h3{
-	padding-top: 10px;
-}
-
 .flex{
 	margin: 0;
 	padding: 0;
@@ -100,11 +96,6 @@ h3{
 	transform: translateY(20px);
 }
 
-.container .box .content p{
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
-
 .container .box:hover .content h2{
 	opacity: 1;
 	transform: translateY(0);
@@ -122,53 +113,3 @@ h3{
 	transform: translateY(0);
 	transition-delay: 0.9s
 }
-
-/*RODAPÉ*/
-.rodape{
-    color: rgb(15, 15, 15);
-    width: 100%;
-    text-align: center;
-    padding: 15px 0 15px 0;
-    background-color: rgb(192, 191, 191);
-}
-
-.rodape p, a{
-    color: rgb(15, 15, 15);
-}
-
-.social a{
-    color: rgb(15, 15, 15);
-    font-size: 2.5rem;
-    margin-right: 20px;    
-}
-
-.social a:last-child{
-    margin-right: 0;
-}
-
-a:hover{
-	color: rgb(66, 66, 228);
-	transition: 1s;
-}
-
-a:link, a:visited {
-text-decoration: none
-}
-
-.navegacao{
-    font-size: 1.3rem;
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-
-.contatos P{
-    font-size: 1.3rem;
-    line-height: 2;
-}
-
-.copyright p{
-    font-size: 1.1rem;
-    padding-top: 20px;
-    color: rgb(15, 15, 15);
-}
-
