@@ -195,13 +195,18 @@ body a:link, a:visited {
 @media (min-width: 910px){
     .rodape{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 300px 300px 300px;
         grid-gap: 20px;
+        align-items: center;
+        justify-content: center;
     }
-    .social{
-        padding-left: 20px;
+    .navegacao{
+        margin-top: 0;
     }
     .contatos{
         padding-right: 20px;
+    }
+    .social{
+        padding-left: 20px;
     }
 }
