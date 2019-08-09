@@ -10,7 +10,7 @@
     }
 
     .lista ul{
-       font-size: 25px;
+       font-size: 24px;
     }
 
     .cabecalho{
@@ -37,14 +37,7 @@
     }
 
     .section-cv p{
-        font-size: 26px;
-    }
-
-    @media (max-width: 900px){
-        .lista ul{
-            display: grid;
-            grid-template-columns: 280px 280px 280px;
-        }
+        font-size: 25px;
     }
 
     .btn-imprimir{
@@ -52,7 +45,17 @@
     }
 
     .rodape{
-            display: none;
+        display: none;
+    }
+    .copyright{
+        display: none;
+    }
+
+    @media (max-width: 900px){
+        .lista ul{
+            display: grid;
+            grid-template-columns: 280px 280px 280px;
+        }
     }
 }
 
