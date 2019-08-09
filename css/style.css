@@ -60,10 +60,10 @@ p{
 }
 
 /*DIV CURRICULUM*/
-.div02{
+.div-cv{
     width: 100%;
     float: left;
-    padding: 4% 4% 2% 4%;
+    padding: 15px 0 15px 0;
     box-sizing: border-box;
 }
 
@@ -81,10 +81,10 @@ p{
 }
 
 /*DIV PORTFÓLIO*/
-.div03{
+.div-pj{
     width: 100%;
     float: left;
-    padding: 4% 4% 2% 4%;
+    padding: 15px 0 15px 0;
     box-sizing: border-box;
 }
 
@@ -203,12 +203,62 @@ p{
     background-color: rgb(34, 31, 31);
 }
 
+/*MEDIA DESKTOP SITE*/
+@media (min-width: 270px) and (max-width: 464px){
+    .container{
+        display: grid;
+        grid-template-columns: 330px;
+        justify-content: center;
+        grid-gap: 25px;
+    }
+    .div-cv{
+        padding-bottom: 0;
+    }
+    .div-pj{
+        padding-top: 0;
+    }
+}
+
+@media (min-width: 465px) and (max-width: 759px){
+    .container{
+        display: grid;
+        grid-template-columns: 400px;
+        justify-content: center;
+        grid-gap: 25px;
+    }
+    .div-cv{
+        padding-bottom: 0;
+    }
+    .div-pj{
+        padding-top: 0;
+    }
+}
+
+@media (min-width: 760px) and (max-width: 929px){
+    .container{
+        display: grid;
+        grid-template-columns: 350px 350px;
+        justify-content: center;
+        grid-gap: 25px;
+    }
+}
+
+@media (min-width: 930px){
+    .container{
+        display: grid;
+        grid-template-columns: 400px 400px;
+        justify-content: center;
+        grid-gap: 25px;
+    }
+}
+
 /*MEDIA DESKTOP RODAPE*/
-@media (min-width: 910px){
+@media (min-width: 950px){
     .rodape{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 300px 330px 300px;
         grid-gap: 20px;
+        justify-content: center;
     }
     .social{
         padding-left: 20px;
@@ -223,4 +273,3 @@ p{
         padding-top: 0;
     }
 }
-  
