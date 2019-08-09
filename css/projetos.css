@@ -179,3 +179,25 @@ text-decoration: none
     color: rgb(15, 15, 15);
 }
 
+.copyright p{
+    font-size: 1rem;
+    color: rgb(15, 15, 15);
+    text-align: center;
+    padding: 15px 0 15px 0;
+    background-color: rgb(192, 191, 191);
+}
+
+/*MEDIA DESKTOP RODAPE*/
+@media (min-width: 910px){
+    .rodape{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px;
+    }
+    .social{
+        padding-left: 20px;
+    }
+    .contatos{
+        padding-right: 20px;
+    }
+}
