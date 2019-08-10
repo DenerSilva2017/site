@@ -134,13 +134,13 @@ body a:link, a:visited {
 }
 
 .navegacao{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     margin-top: 20px;
     margin-bottom: 10px;
 }
 
 .contatos P{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     line-height: 2;
 }
 
@@ -203,6 +203,7 @@ body a:link, a:visited {
     .navegacao{
         margin-top: 0;
     }
+
     .contatos{
         padding-right: 20px;
     }
