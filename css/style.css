@@ -52,7 +52,7 @@ h1{
     padding: 25px 15px 10px 15px;
 }
 
-#apresentacao p{
+.apresentacao p{
     font-family: 'Satisfy', cursive;
     font-size: 1.7rem;
     line-height: 1.3;
