@@ -1,0 +1,31 @@
+.aside{
+    display: flex;
+    background: tomato;
+    flex-direction: column;
+    width: 250px;
+    height: 500px;
+}
+
+.div01{
+    display: flex;
+    background: blue;
+    flex-direction: row;
+}
+
+.div02{
+    display: flex;
+    background: green;
+    flex-direction: row;
+}
+
+.section{
+    display: flex;
+    background: yellow;
+    flex-direction: row;
+}
+
+.footer{
+    display: flex;
+    background: violet;
+    flex-direction: row;
+}
