@@ -53,7 +53,7 @@ h1{
 }
 
 .apresentacao p{
-    font-family: 'roboto', cursive;
+    font: normal 2rem 'Roboto', sans-serif;
     font-size: 1.7rem;
     line-height: 1.3;
 }
